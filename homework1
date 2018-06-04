@@ -1,0 +1,47 @@
+2.
+s2 = float(input())
+print(type(s2))
+output-2.8
+<class 'float'>
+
+s3 = input()
+print(type(s3))
+output-5478
+<class 'str'>
+
+s4 = complex(input())
+print(s4.real, s4.imag)
+print(type(s4))
+output-6
+6.0 0.0
+<class 'complex'>
+
+3.
+j = int(input("enter any number:"))
+while j < 0:
+    break
+while True:
+    if j > 0:
+        print(str(j)
+        
+ 10.
+ Negative indexing in python-
+ Negative indexing starts from right of the list and starts from -1, when you dont know the length this is useful 
+ as it becomes easy to refer to the last element
+ 
+ Packing and unpacking 
+ when we are not sure how many arguments need to be passed, we can use packing to pack all arguments 
+ we can use * to unpack all the elements of tuple so that they can be passed as differnt parameters
+ 
+ Mutable and Immutable
+ Mutable objects are lists and dictionaries which allow to change their content and not identity
+ where as objects like integers, strings, float cannot be changed so they are immutable. It will raise type error if we try to change
+ 
+ Append and extend
+ Append adds the argument as single element to the list, The lenght of list will increase by one.
+ where as extend adds each element to the list, and the list extends by number of elements added.
+ 
+ Pickling and Unpickling
+ Pickling is converting object streams to byte stream, pickling is also called serialization and 
+ unpickling is converting byte stream to object stream
+ 
